@@ -1,10 +1,7 @@
-import { connectToDB } from "/dbconfig/dbconfig";
+import { connectToDB } from "../../../dbconfig/dbconfig";
 
 
-import {User} from "/models/userModel"
-import { NextResponse } from "next/server";
-import bcryptjs from "bcryptjs";
-import jwt from "jsonwebtoken";
+import { User } from "../../../models/userModel";
 
 export const config = {
     api: {

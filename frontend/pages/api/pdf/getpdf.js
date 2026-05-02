@@ -1,5 +1,5 @@
-import { connectToDB } from '/dbconfig/dbconfig';
-import { Pdf } from '/models/pdfModel';
+import { connectToDB } from '../../../dbconfig/dbconfig';
+import { Pdf } from '../../../models/pdfModel';
 
 export default async function handler(req, res) {
   try {

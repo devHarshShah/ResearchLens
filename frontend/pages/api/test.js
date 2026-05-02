@@ -1,4 +1,4 @@
-import { connectToDB } from "dbconfig";
+import { connectToDB } from "../../dbconfig/dbconfig";
 
 
 

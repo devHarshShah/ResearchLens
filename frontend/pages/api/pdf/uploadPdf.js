@@ -2,7 +2,7 @@
 
 import multer from 'multer';
 import mongoose from 'mongoose';
-import {Pdf} from "/models/pdfModel"
+import { Pdf } from '../../../models/pdfModel';
 import {createRouter} from 'next-connect';
 // Initialize Multer
 export const config = {
@@ -57,4 +57,3 @@ export default async  function handler(req, res){
     res.status(500).json({ success: false, error: 'Internal Server Error' });
   }
 };
-

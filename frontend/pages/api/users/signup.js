@@ -1,8 +1,8 @@
 const bcryptjs = require("bcryptjs");
-import { connectToDB } from "/dbconfig/dbconfig.js";
+import { connectToDB } from "../../../dbconfig/dbconfig.js";
 
 
-import {User} from "/models/userModel";
+import { User } from "../../../models/userModel";
 
 
 
